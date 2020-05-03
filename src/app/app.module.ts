@@ -11,6 +11,8 @@ import { ToggleablebuttonComponent } from './components/toggleablebutton/togglea
 import { TitleComponent } from './components/title/title.component';
 import { TailwindbuttonpillComponent } from './components/tailwindbuttonpill/tailwindbuttonpill.component';
 import StorybookbuttonComponent from './components/storybookbutton/storybookbutton.component';
+import { InputboxComponent } from './components/inputbox/inputbox.component';
+import { ListComponent } from './components/list/list.component';
 
 
 
@@ -23,7 +25,9 @@ import StorybookbuttonComponent from './components/storybookbutton/storybookbutt
     ToggleablebuttonComponent,
     TitleComponent,
     TailwindbuttonpillComponent,
-    StorybookbuttonComponent
+    StorybookbuttonComponent,
+    InputboxComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,

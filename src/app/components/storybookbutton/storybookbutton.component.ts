@@ -20,8 +20,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   ],
 })
 export default class StorybookbuttonComponent implements OnInit {
-  @Input()
-  text = '';
+  @Input()  text = '';
   @Output()
   onClick = new EventEmitter<any>();
   constructor() { }
