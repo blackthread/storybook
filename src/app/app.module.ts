@@ -10,6 +10,7 @@ import { IconbuttonComponent } from './components/iconbutton/iconbutton.componen
 import { ToggleablebuttonComponent } from './components/toggleablebutton/toggleablebutton.component';
 import { TitleComponent } from './components/title/title.component';
 import { TailwindbuttonpillComponent } from './components/tailwindbuttonpill/tailwindbuttonpill.component';
+import StorybookbuttonComponent from './components/storybookbutton/storybookbutton.component';
 
 
 
@@ -21,7 +22,8 @@ import { TailwindbuttonpillComponent } from './components/tailwindbuttonpill/tai
     IconbuttonComponent,
     ToggleablebuttonComponent,
     TitleComponent,
-    TailwindbuttonpillComponent
+    TailwindbuttonpillComponent,
+    StorybookbuttonComponent
   ],
   imports: [
     BrowserModule,
