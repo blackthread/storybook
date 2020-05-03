@@ -1,10 +1,5 @@
-import { storiesOf } from '@storybook/angular';
 import { boolean, number, text } from '@storybook/addon-knobs';
-
-import { action } from '@storybook/addon-actions';
 import { withKnobs, object } from '@storybook/addon-knobs';
-
-import { Button } from '@storybook/angular/demo';
 import StorybookbuttonComponent from '../app/components/storybookbutton/storybookbutton.component';
 
 export default {
