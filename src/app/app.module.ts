@@ -13,6 +13,10 @@ import { TailwindbuttonpillComponent } from './components/tailwindbuttonpill/tai
 import StorybookbuttonComponent from './components/storybookbutton/storybookbutton.component';
 import { InputboxComponent } from './components/inputbox/inputbox.component';
 import { ListComponent } from './components/list/list.component';
+import { DisplayTextComponent } from './components/display-fields/display-text/display-text.component';
+import { DisplayFieldContainerComponent } from './components/display-fields/display-field-container/display-field-container.component';
+import { DisplayBooleanComponent } from './components/display-fields/display-boolean/display-boolean.component';
+import { DisplayDateComponent } from './components/display-fields/display-date/display-date.component';
 
 
 
@@ -27,7 +31,11 @@ import { ListComponent } from './components/list/list.component';
     TailwindbuttonpillComponent,
     StorybookbuttonComponent,
     InputboxComponent,
-    ListComponent
+    ListComponent,
+    DisplayTextComponent,
+    DisplayFieldContainerComponent,
+    DisplayBooleanComponent,
+    DisplayDateComponent
   ],
   imports: [
     BrowserModule,
